@@ -7,5 +7,8 @@ edition = "2021"
 
 [dependencies]
 rayon = "1.10.0"
+itertools="0.13.0"
+rand="0.8.5"
 diam={git="https://github.com/wagnerf42/diam"}
+
 

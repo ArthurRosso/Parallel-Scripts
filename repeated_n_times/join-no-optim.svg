@@ -1,0 +1,568 @@
+<svg version='1.1' viewBox='0 0 1920 1080' xmlns='http://www.w3.org/2000/svg'>
+<line x1='960' y1='45' x2='754.1680960548886' y2='75' stroke='black' stroke-width='3'/>
+<line x1='754.1680960548886' y1='105' x2='960' y2='135' stroke='black' stroke-width='3'/>
+<line x1='960' y1='45' x2='1234.9914236706688' y2='75' stroke='black' stroke-width='3'/>
+<line x1='1234.9914236706688' y1='105' x2='960' y2='135' stroke='black' stroke-width='3'/>
+<line x1='960' y1='165' x2='411.663807890223' y2='255' stroke='black' stroke-width='3'/>
+<line x1='411.663807890223' y1='285' x2='960' y2='375' stroke='black' stroke-width='3'/>
+<line x1='960' y1='165' x2='1371.6638078902229' y2='195' stroke='black' stroke-width='3'/>
+<line x1='1371.663807890223' y1='345' x2='960' y2='375' stroke='black' stroke-width='3'/>
+<line x1='1371.6638078902229' y1='225' x2='1165.8319039451114' y2='255' stroke='black' stroke-width='3'/>
+<line x1='1165.8319039451114' y1='285' x2='1371.663807890223' y2='315' stroke='black' stroke-width='3'/>
+<line x1='1371.6638078902229' y1='225' x2='1508.336192109777' y2='255' stroke='black' stroke-width='3'/>
+<line x1='1508.336192109777' y1='285' x2='1371.663807890223' y2='315' stroke='black' stroke-width='3'/>
+<line x1='960' y1='405' x2='344.1509433962264' y2='615' stroke='black' stroke-width='3'/>
+<line x1='344.1509433962264' y1='645' x2='960' y2='855' stroke='black' stroke-width='3'/>
+<line x1='960' y1='405' x2='1302.5042881646655' y2='435' stroke='black' stroke-width='3'/>
+<line x1='1302.5042881646655' y1='825' x2='960' y2='855' stroke='black' stroke-width='3'/>
+<line x1='1302.5042881646655' y1='465' x2='823.327615780446' y2='615' stroke='black' stroke-width='3'/>
+<line x1='823.327615780446' y1='645' x2='1302.5042881646655' y2='795' stroke='black' stroke-width='3'/>
+<line x1='1302.5042881646655' y1='465' x2='1439.1766723842195' y2='495' stroke='black' stroke-width='3'/>
+<line x1='1439.1766723842197' y1='765' x2='1302.5042881646655' y2='795' stroke='black' stroke-width='3'/>
+<line x1='1439.1766723842195' y1='525' x2='1096.672384219554' y2='615' stroke='black' stroke-width='3'/>
+<line x1='1096.672384219554' y1='645' x2='1439.1766723842197' y2='735' stroke='black' stroke-width='3'/>
+<line x1='1439.1766723842195' y1='525' x2='1575.8490566037735' y2='555' stroke='black' stroke-width='3'/>
+<line x1='1575.8490566037735' y1='705' x2='1439.1766723842197' y2='735' stroke='black' stroke-width='3'/>
+<line x1='1575.8490566037735' y1='585' x2='1370.017152658662' y2='615' stroke='black' stroke-width='3'/>
+<line x1='1370.017152658662' y1='645' x2='1575.8490566037735' y2='675' stroke='black' stroke-width='3'/>
+<line x1='1575.8490566037735' y1='585' x2='1712.5214408233276' y2='615' stroke='black' stroke-width='3'/>
+<line x1='1712.5214408233276' y1='645' x2='1575.8490566037735' y2='675' stroke='black' stroke-width='3'/>
+<line x1='960' y1='885' x2='823.327615780446' y2='915' stroke='black' stroke-width='3'/>
+<line x1='823.327615780446' y1='945' x2='960' y2='975' stroke='black' stroke-width='3'/>
+<line x1='960' y1='885' x2='1098.3190394511148' y2='915' stroke='black' stroke-width='3'/>
+<line x1='1098.3190394511148' y1='945' x2='960' y2='975' stroke='black' stroke-width='3'/>
+<rect width='1646.655231560892' height='30' x='136.67238421955403' y='15' fill='black'/>
+<rect class="task12498680053593096312" id="0" width='0' height='30' x='136.67238421955403' y='15' fill='red'>
+<animate attributeType="XML" attributeName="width" from="0" to="1646.655231560892" begin="0ms" dur="187.98877080409062ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_0">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 0 end 500</text>
+<text x="1525" y="1020">duration 500ns</text>
+<text x="1525" y="1040">label main_task</text>
+</g>
+<rect width='549.9828473413379' height='30' x='479.17667238421956' y='75' fill='black'/>
+<rect class="task12498680053593096312" id="1" width='0' height='30' x='479.17667238421956' y='75' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="549.9828473413379" begin="7049.578905153398ms" dur="62.78824944856627ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_1">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 18750 end 18917</text>
+<text x="1525" y="1020">duration 167ns</text>
+<text x="1525" y="1040">label left</text>
+</g>
+<rect width='411.663807890223' height='30' x='1029.1595197255574' y='75' fill='black'/>
+<rect class="task12498680053593096312" id="2" width='0' height='30' x='1029.1595197255574' y='75' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="411.663807890223" begin="7284.564868658512ms" dur="46.997192701022655ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_2">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 19375 end 19500</text>
+<text x="1525" y="1020">duration 125ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='1096.672384219554' height='30' x='411.663807890223' y='135' fill='black'/>
+<rect class="task12498680053593096312" id="3" width='0' height='30' x='411.663807890223' y='135' fill='red'>
+<animate attributeType="XML" attributeName="width" from="0" to="1096.672384219554" begin="10872.142570683778ms" dur="125.20052135552436ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_3">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 28917 end 29250</text>
+<text x="1525" y="1020">duration 333ns</text>
+<text x="1525" y="1040">label main_task</text>
+</g>
+<rect width='823.327615780446' height='30' x='0' y='255' fill='black'/>
+<rect class="task12498680053593096312" id="4" width='0' height='30' x='0' y='255' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="823.327615780446" begin="13644.976940044115ms" dur="93.99438540204531ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_4">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 36292 end 36542</text>
+<text x="1525" y="1020">duration 250ns</text>
+<text x="1525" y="1040">label left</text>
+</g>
+<rect width='1096.672384219554' height='30' x='823.327615780446' y='195' fill='black'/>
+<rect class="task12498680053593096312" id="5" width='0' height='30' x='823.327615780446' y='195' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="1096.672384219554" begin="13879.962903549227ms" dur="125.20052135552436ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_5">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 36917 end 37250</text>
+<text x="1525" y="1020">duration 333ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='273.34476843910807' height='30' x='1029.1595197255574' y='255' fill='black'/>
+<rect class="task12498680053593096312" id="6" width='0' height='30' x='1029.1595197255574' y='255' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="273.34476843910807" begin="14302.937637858431ms" dur="31.206135953479045ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_6">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 38042 end 38125</text>
+<text x="1525" y="1020">duration 83ns</text>
+<text x="1525" y="1040">label left</text>
+</g>
+<rect width='411.663807890223' height='30' x='1302.5042881646655' y='255' fill='black'/>
+<rect class="task12498680053593096312" id="7" width='0' height='30' x='1302.5042881646655' y='255' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="411.663807890223" begin="14412.347102466412ms" dur="46.997192701022655ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_7">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 38333 end 38458</text>
+<text x="1525" y="1020">duration 125ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='273.34476843910807' height='30' x='1234.991423670669' y='315' fill='black'/>
+<rect class="task12498680053593096312" id="8" width='0' height='30' x='1234.991423670669' y='315' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="273.34476843910807" begin="14490.926408662523ms" dur="31.206135953479045ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_8">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 38542 end 38625</text>
+<text x="1525" y="1020">duration 83ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='823.327615780446' height='30' x='548.336192109777' y='375' fill='black'/>
+<rect class="task12498680053593096312" id="9" width='0' height='30' x='548.336192109777' y='375' fill='red'>
+<animate attributeType="XML" attributeName="width" from="0" to="823.327615780446" begin="17890.139362342088ms" dur="93.99438540204531ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_9">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 47583 end 47833</text>
+<text x="1525" y="1020">duration 250ns</text>
+<text x="1525" y="1040">label main_task</text>
+</g>
+<rect width='685.008576329331' height='30' x='1.6466552315608851' y='615' fill='black'/>
+<rect class="task12498680053593096312" id="10" width='0' height='30' x='1.6466552315608851' y='615' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="685.008576329331" begin="20161.79566873872ms" dur="78.2033286545017ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_10">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 53625 end 53833</text>
+<text x="1525" y="1020">duration 208ns</text>
+<text x="1525" y="1040">label left</text>
+</g>
+<rect width='823.327615780446' height='30' x='890.8404802744425' y='435' fill='black'/>
+<rect class="task12498680053593096312" id="11" width='0' height='30' x='890.8404802744425' y='435' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="823.327615780446" begin="20365.575496290356ms" dur="93.99438540204531ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_11">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 54167 end 54417</text>
+<text x="1525" y="1020">duration 250ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='273.34476843910807' height='30' x='686.6552315608919' y='615' fill='black'/>
+<rect class="task12498680053593096312" id="12" width='0' height='30' x='686.6552315608919' y='615' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="273.34476843910807" begin="20537.773210346902ms" dur="31.206135953479045ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_12">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 54625 end 54708</text>
+<text x="1525" y="1020">duration 83ns</text>
+<text x="1525" y="1040">label left</text>
+</g>
+<rect width='546.6895368782161' height='30' x='1165.8319039451114' y='495' fill='black'/>
+<rect class="task12498680053593096312" id="13" width='0' height='30' x='1165.8319039451114' y='495' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="546.6895368782161" begin="20647.55865249649ms" dur="62.41227190695809ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_13">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 54917 end 55083</text>
+<text x="1525" y="1020">duration 166ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='273.34476843910807' height='30' x='960' y='615' fill='black'/>
+<rect class="task12498680053593096312" id="14" width='0' height='30' x='960' y='615' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="273.34476843910807" begin="20741.553037898535ms" dur="31.206135953479045ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_14">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 55167 end 55250</text>
+<text x="1525" y="1020">duration 83ns</text>
+<text x="1525" y="1040">label left</text>
+</g>
+<rect width='411.663807890223' height='30' x='1370.017152658662' y='555' fill='black'/>
+<rect class="task12498680053593096312" id="15" width='0' height='30' x='1370.017152658662' y='555' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="411.663807890223" begin="20819.756366553036ms" dur="46.997192701022655ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_15">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 55375 end 55500</text>
+<text x="1525" y="1020">duration 125ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='273.34476843910807' height='30' x='1233.344768439108' y='615' fill='black'/>
+<rect class="task12498680053593096312" id="16" width='0' height='30' x='1233.344768439108' y='615' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="273.34476843910807" begin="20913.75075195508ms" dur="31.206135953479045ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_16">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 55625 end 55708</text>
+<text x="1525" y="1020">duration 83ns</text>
+<text x="1525" y="1040">label left</text>
+</g>
+<rect width='411.663807890223' height='30' x='1506.6895368782161' y='615' fill='black'/>
+<rect class="task12498680053593096312" id="17" width='0' height='30' x='1506.6895368782161' y='615' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="411.663807890223" begin="20991.954080609583ms" dur="46.997192701022655ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_17">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 55833 end 55958</text>
+<text x="1525" y="1020">duration 125ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='273.34476843910807' height='30' x='1439.1766723842195' y='675' fill='black'/>
+<rect class="task12498680053593096312" id="18" width='0' height='30' x='1439.1766723842195' y='675' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="273.34476843910807" begin="21070.533386805695ms" dur="31.206135953479045ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_18">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 56042 end 56125</text>
+<text x="1525" y="1020">duration 83ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='276.63807890222984' height='30' x='1300.8576329331047' y='735' fill='black'/>
+<rect class="task12498680053593096312" id="19" width='0' height='30' x='1300.8576329331047' y='735' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="276.63807890222984" begin="21132.94565871265ms" dur="31.582113495087224ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_19">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 56208 end 56292</text>
+<text x="1525" y="1020">duration 84ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='276.63807890222984' height='30' x='1164.1852487135507' y='795' fill='black'/>
+<rect class="task12498680053593096312" id="20" width='0' height='30' x='1164.1852487135507' y='795' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="276.63807890222984" begin="21179.942851413674ms" dur="31.582113495087224ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_20">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 56333 end 56417</text>
+<text x="1525" y="1020">duration 84ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='823.327615780446' height='30' x='548.336192109777' y='855' fill='black'/>
+<rect class="task12498680053593096312" id="21" width='0' height='30' x='548.336192109777' y='855' fill='red'>
+<animate attributeType="XML" attributeName="width" from="0" to="823.327615780446" begin="24015.565470222577ms" dur="93.99438540204531ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_21">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 63875 end 64125</text>
+<text x="1525" y="1020">duration 250ns</text>
+<text x="1525" y="1040">label main_task</text>
+</g>
+<rect width='276.63807890222984' height='30' x='685.008576329331' y='915' fill='black'/>
+<rect class="task12498680053593096312" id="22" width='0' height='30' x='685.008576329331' y='915' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="276.63807890222984" begin="24986.71546019651ms" dur="31.582113495087224ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_22">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 66458 end 66542</text>
+<text x="1525" y="1020">duration 84ns</text>
+<text x="1525" y="1040">label left</text>
+</g>
+<rect width='273.34476843910807' height='30' x='961.6466552315609' y='915' fill='black'/>
+<rect class="task12498680053593096312" id="23" width='0' height='30' x='961.6466552315609' y='915' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="273.34476843910807" begin="25065.29476639262ms" dur="31.206135953479045ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_23">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 66667 end 66750</text>
+<text x="1525" y="1020">duration 83ns</text>
+<text x="1525" y="1040">label right</text>
+</g>
+<rect width='1511.6295025728987' height='30' x='204.18524871355066' y='975' fill='black'/>
+<rect class="task12498680053593096312" id="24" width='0' height='30' x='204.18524871355066' y='975' fill='red'>
+<animate attributeType="XML" attributeName="width" from="0" to="1511.6295025728987" begin="29827.426308401842ms" dur="172.5736915981552ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_24">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 79333 end 79792</text>
+<text x="1525" y="1020">duration 459ns</text>
+<text x="1525" y="1040">label main_task</text>
+</g>
+<rect width='93586.00343053172' height='30' x='0' y='1095' fill='black'/>
+<rect class="task12498680053593096312" id="25" width='0' height='30' x='0' y='1095' fill='red'>
+<animate attributeType="XML" attributeName="width" from="0" to="93586.00343053172" begin="187.98877080409062ms" dur="10684.153799879687ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_25">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 500 end 28917</text>
+<text x="1525" y="1020">duration 28.41us</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='60376.260720411665' height='30' x='93586.00343053172' y='1095' fill='black'/>
+<rect class="task12498680053593096312" id="26" width='0' height='30' x='93586.00343053172' y='1095' fill='red'>
+<animate attributeType="XML" attributeName="width" from="0" to="60376.260720411665" begin="10997.343092039302ms" dur="6892.796270302787ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_26">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 29250 end 47583</text>
+<text x="1525" y="1020">duration 18.33us</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='52831.28644939965' height='30' x='153962.2641509434' y='1095' fill='black'/>
+<rect class="task12498680053593096312" id="27" width='0' height='30' x='153962.2641509434' y='1095' fill='red'>
+<animate attributeType="XML" attributeName="width" from="0" to="52831.28644939965" begin="17984.133747744134ms" dur="6031.431722478444ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_27">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 47833 end 63875</text>
+<text x="1525" y="1020">duration 16.04us</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='50084.66552315609' height='30' x='206793.55060034306' y='1095' fill='black'/>
+<rect class="task12498680053593096312" id="28" width='0' height='30' x='206793.55060034306' y='1095' fill='red'>
+<animate attributeType="XML" attributeName="width" from="0" to="50084.66552315609" begin="24109.559855624622ms" dur="5717.866452777221ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_28">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 64125 end 79333</text>
+<text x="1525" y="1020">duration 15.20us</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='61749.571183533444' height='30' x='0' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="29" width='0' height='30' x='0' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="61749.571183533444" begin="0ms" dur="7049.578905153398ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_29">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 0 end 18750</text>
+<text x="1525" y="1020">duration 18.75us</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='1508.336192109777' height='30' x='61749.571183533444' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="30" width='0' height='30' x='61749.571183533444' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="1508.336192109777" begin="7112.367154601965ms" dur="172.19771405654703ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_30">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 18917 end 19375</text>
+<text x="1525" y="1020">duration 458ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='55301.269296741' height='30' x='63257.907375643226' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="31" width='0' height='30' x='63257.907375643226' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="55301.269296741" begin="7331.562061359535ms" dur="6313.41487868458ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_31">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 19500 end 36292</text>
+<text x="1525" y="1020">duration 16.79us</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='1234.9914236706688' height='30' x='118559.17667238422' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="32" width='0' height='30' x='118559.17667238422' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="1234.9914236706688" begin="13738.971325446159ms" dur="140.99157810306798ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_32">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 36542 end 36917</text>
+<text x="1525" y="1020">duration 375ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='2608.301886792453' height='30' x='119794.16809605488' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="33" width='0' height='30' x='119794.16809605488' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="2608.301886792453" begin="14005.163424904751ms" dur="297.7742129536796ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_33">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 37250 end 38042</text>
+<text x="1525" y="1020">duration 792ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='685.008576329331' height='30' x='122402.46998284734' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="34" width='0' height='30' x='122402.46998284734' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="685.008576329331" begin="14334.143773811911ms" dur="78.2033286545017ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_34">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 38125 end 38333</text>
+<text x="1525" y="1020">duration 208ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='276.63807890222984' height='30' x='123087.47855917667' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="35" width='0' height='30' x='123087.47855917667' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="276.63807890222984" begin="14459.344295167435ms" dur="31.582113495087224ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_35">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 38458 end 38542</text>
+<text x="1525" y="1020">duration 84ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='49399.656946826755' height='30' x='123364.1166380789' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="36" width='0' height='30' x='123364.1166380789' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="49399.656946826755" begin="14522.132544616ms" dur="5639.663124122719ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_36">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 38625 end 53625</text>
+<text x="1525" y="1020">duration 15.00us</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='1099.9656946826758' height='30' x='172763.77358490566' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="37" width='0' height='30' x='172763.77358490566' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="1099.9656946826758" begin="20239.99899739322ms" dur="125.57649889713254ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_37">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 53833 end 54167</text>
+<text x="1525" y="1020">duration 334ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='685.008576329331' height='30' x='173863.73927958834' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="38" width='0' height='30' x='173863.73927958834' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="685.008576329331" begin="20459.569881692398ms" dur="78.2033286545017ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_38">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 54417 end 54625</text>
+<text x="1525" y="1020">duration 208ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='688.3018867924528' height='30' x='174548.74785591767' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="39" width='0' height='30' x='174548.74785591767' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="688.3018867924528" begin="20568.97934630038ms" dur="78.57930619610988ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_39">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 54708 end 54917</text>
+<text x="1525" y="1020">duration 209ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='276.63807890222984' height='30' x='175237.0497427101' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="40" width='0' height='30' x='175237.0497427101' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="276.63807890222984" begin="20709.97092440345ms" dur="31.582113495087224ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_40">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 55083 end 55167</text>
+<text x="1525" y="1020">duration 84ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='411.663807890223' height='30' x='175513.68782161234' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="41" width='0' height='30' x='175513.68782161234' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="411.663807890223" begin="20772.759173852013ms" dur="46.997192701022655ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_41">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 55250 end 55375</text>
+<text x="1525" y="1020">duration 125ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='411.663807890223' height='30' x='175925.35162950258' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="42" width='0' height='30' x='175925.35162950258' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="411.663807890223" begin="20866.75355925406ms" dur="46.997192701022655ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_42">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 55500 end 55625</text>
+<text x="1525" y="1020">duration 125ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='411.663807890223' height='30' x='176337.01543739278' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="43" width='0' height='30' x='176337.01543739278' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="411.663807890223" begin="20944.95688790856ms" dur="46.997192701022655ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_43">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 55708 end 55833</text>
+<text x="1525" y="1020">duration 125ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='276.63807890222984' height='30' x='176748.679245283' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="44" width='0' height='30' x='176748.679245283' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="276.63807890222984" begin="21038.951273310606ms" dur="31.582113495087224ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_44">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 55958 end 56042</text>
+<text x="1525" y="1020">duration 84ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='273.34476843910807' height='30' x='177025.31732418525' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="45" width='0' height='30' x='177025.31732418525' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="273.34476843910807" begin="21101.739522759173ms" dur="31.206135953479045ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_45">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 56125 end 56208</text>
+<text x="1525" y="1020">duration 83ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='135.02572898799315' height='30' x='177298.66209262435' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="46" width='0' height='30' x='177298.66209262435' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="135.02572898799315" begin="21164.52777220774ms" dur="15.415079205935431ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_46">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 56292 end 56333</text>
+<text x="1525" y="1020">duration 41ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='33068.13036020583' height='30' x='177433.68782161234' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="47" width='0' height='30' x='177433.68782161234' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="33068.13036020583" begin="21211.52496490876ms" dur="3775.190495287748ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_47">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 56417 end 66458</text>
+<text x="1525" y="1020">duration 10.04us</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='411.663807890223' height='30' x='210501.81818181818' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="48" width='0' height='30' x='210501.81818181818' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="411.663807890223" begin="25018.297573691598ms" dur="46.997192701022655ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_48">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 66542 end 66667</text>
+<text x="1525" y="1020">duration 125ns</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+<rect width='42951.35506003431' height='30' x='210913.4819897084' y='1035' fill='black'/>
+<rect class="task12498680053593096312" id="49" width='0' height='30' x='210913.4819897084' y='1035' fill='blue'>
+<animate attributeType="XML" attributeName="width" from="0" to="42951.35506003431" begin="25096.5009023461ms" dur="4903.4990976539ms" fill="freeze"/>
+</rect>
+<g id="tip_12498680053593096312_49">
+<rect x="1520" y="980" width="300" height="70" fill="white" stroke="black"/>
+<text x="1525" y="1000">start 66750 end 79792</text>
+<text x="1525" y="1020">duration 13.04us</text>
+<text x="1525" y="1040">label idle</text>
+</g>
+
+   <style>
+      .task-highlight {
+        fill: #ec008c;
+        opacity: 1;
+      }
+    </style>
+  <script><![CDATA[
+
+    displayTips();
+
+    function displayTips() {
+        let tasks = document.getElementsByClassName('task12498680053593096312');
+        for (let i = 0; i < tasks.length ; i++) {
+          let task = tasks[i];
+          let tip_id = task.id;
+          let tip = document.getElementById('tip_12498680053593096312_'+tip_id);
+          tip.style.display='none';
+          tasks[i].tip = tip;
+          tasks[i].addEventListener('mouseover', mouseOverEffect);
+          tasks[i].addEventListener('mouseout', mouseOutEffect);
+        }
+    }
+
+    function mouseOverEffect() {
+      this.classList.add("task-highlight");
+      this.tip.style.display='block';
+    }
+
+    function mouseOutEffect() {
+      this.classList.remove("task-highlight");
+      this.tip.style.display='none';
+    }
+  ]]></script>
+</svg>
