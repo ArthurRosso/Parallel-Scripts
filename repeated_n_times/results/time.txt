@@ -1,0 +1,35 @@
+Prices 0
+Function Hash seq, Time elapsed: 19.334µs
+Function Best seq, Time elapsed: 167ns
+Function Parallel Block, Time elapsed: 249.459µs
+Function Parallel Joins, Time elapsed: 60.792µs
+Prices 1
+Function Hash seq, Time elapsed: 667ns
+Function Best seq, Time elapsed: 42ns
+Function Parallel Block, Time elapsed: 125ns
+Function Parallel Joins, Time elapsed: 125ns
+Prices 2
+Function Hash seq, Time elapsed: 250ns
+Function Best seq, Time elapsed: 84ns
+Function Parallel Block, Time elapsed: 83ns
+Function Parallel Joins, Time elapsed: 42ns
+Prices 3
+Function Hash seq, Time elapsed: 292ns
+Function Best seq, Time elapsed: 84ns
+Function Parallel Block, Time elapsed: 83ns
+Function Parallel Joins, Time elapsed: 84ns
+Prices 4
+Function Hash seq, Time elapsed: 2.542µs
+Function Best seq, Time elapsed: 167ns
+Function Parallel Block, Time elapsed: 68.125µs
+Function Parallel Joins, Time elapsed: 69.625µs
+Prices Nums 1
+Function Hash seq, Time elapsed: 465.875µs
+Function Best seq, Time elapsed: 10.625µs
+Function Parallel Block, Time elapsed: 668.167µs
+Function Parallel Joins, Time elapsed: 1.364292ms
+Prices Nums 2
+Function Hash seq, Time elapsed: 2.916µs
+Function Best seq, Time elapsed: 2µs
+Function Parallel Block, Time elapsed: 1.667µs
+Function Parallel Joins, Time elapsed: 1.625µs

@@ -9,7 +9,7 @@ use std::collections::HashMap;
 impl Solution {
     pub fn repeated_n_times(nums: Vec<i32>) -> i32 {
         let mut seq: HashMap<i32, i32> = HashMap::new();
-        
+
         for &x in nums.iter() {
             if let Some(_) = seq.get(&x) {
                 return x;
@@ -26,18 +26,20 @@ The runtime beats only 20% in leetcode.
 After analysing the problem I realize that: Or the first 4 elements in the array will have a repetition or the array must have two identical neighbors, so I implemented like that:
 ```rust []
 impl Solution {
-    pub fn repeated_n_times(nums: Vec<i32>) -> i32 {
+    pub fn repeated_n_times_best(nums: Vec<i32>) -> i32 {
         if (nums[0] == nums[2]) || (nums[0] == nums[3]) {
             return nums[0];
         } else if nums[1] == nums[3] {
             return nums[1];
         }
 
-        for i in 1..nums.len() {
-            if nums[i] == nums[i - 1] {
-                return nums[i];
+        let mut iter = nums.windows(2);
+        while let Some(x) = iter.next() {
+            if x[0] == x[1] {
+                return x[0];
             }
         }
+
         0
     }
 }
@@ -53,7 +55,7 @@ impl Solution {
         if nums.len() > 2 {
             let mut iter = nums.into_iter();
             let rx = iter.next().unwrap();
-            let ry = iter.next().unwrap(); 
+            let ry = iter.next().unwrap();
             let (ra, rb) = rayon::join(
                 || {
                     if rx == ry { rx } else { 0 }
@@ -88,7 +90,7 @@ impl Solution {
         if nums.len() >= 2 {
             let mut iter = nums.into_iter();
             let rx = *iter.next().unwrap();
-            let ry = *iter.next().unwrap(); 
+            let ry = *iter.next().unwrap();
             let (ra, rb) = rayon::join(
                 || {
                     if rx == ry { rx } else { 0 }

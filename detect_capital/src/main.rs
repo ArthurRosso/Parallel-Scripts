@@ -3,63 +3,95 @@ use std::io::{self, BufRead};
 
 use std::time::Instant;
 
-use rayon::prelude::*;
 use diam::prelude::*;
+use rayon::prelude::*;
 
-pub fn detect_capital_use(word: String) -> bool {
-    let is_fcapital: bool = word.chars().nth(0).unwrap().is_uppercase();
-    let is_scapital: bool = word.chars().nth(1).unwrap_or('a').is_uppercase();
-    
-    if !is_fcapital && is_scapital {
-        return false;
-    }
-    
-    word.chars().skip(2).fold(true, |acc, x| if x.is_uppercase() != is_scapital {false} else {acc})
-}
+// pub fn detect_capital_use(word: String) -> bool {
+//     let is_fcapital: bool = word.chars().nth(0).unwrap().is_uppercase();
+//     let is_scapital: bool = word.chars().nth(1).unwrap_or('a').is_uppercase();
 
-pub fn detect_capital_use_par(word: String) -> bool {
-    let is_fcapital: bool = word.chars().nth(0).unwrap().is_uppercase();
-    let is_scapital: bool = word.chars().nth(1).unwrap_or('a').is_uppercase();
-    
-    if !is_fcapital && is_scapital {
-        return false;
-    }
+//     if !is_fcapital && is_scapital {
+//         return false;
+//     }
 
-    let chars: Vec<char> = word.chars().collect();
-    
-    chars.par_iter().skip(2)
-        .fold(|| true, |acc, x| if x.is_uppercase() != is_scapital {false} else {acc})
-        .reduce(|| true, |char1: bool, char2: bool| {
-            if char1 && char2 {
-                true
-            } else {
-                false
-            }
-        })
-}
+//     word.chars().skip(2).fold(true, |acc, x| {
+//         if x.is_uppercase() != is_scapital {
+//             false
+//         } else {
+//             acc
+//         }
+//     })
+// }
+
+// pub fn detect_capital_use_par(word: String) -> bool {
+//     let is_fcapital: bool = word.chars().nth(0).unwrap().is_uppercase();
+//     let is_scapital: bool = word.chars().nth(1).unwrap_or('a').is_uppercase();
+
+//     if !is_fcapital && is_scapital {
+//         return false;
+//     }
+
+//     let chars: Vec<char> = word.chars().collect();
+
+//     chars
+//         .par_iter()
+//         .skip(2)
+//         .fold(
+//             || true,
+//             |acc, x| {
+//                 if x.is_uppercase() != is_scapital {
+//                     false
+//                 } else {
+//                     acc
+//                 }
+//             },
+//         )
+//         .reduce(
+//             || true,
+//             |char1: bool, char2: bool| {
+//                 if char1 && char2 {
+//                     true
+//                 } else {
+//                     false
+//                 }
+//             },
+//         )
+// }
 
 fn print_svg() {
     let word = String::from("Datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata");
 
     let is_fcapital: bool = word.chars().nth(0).unwrap().is_uppercase();
     let is_scapital: bool = word.chars().nth(1).unwrap_or('a').is_uppercase();
-    
+
     if !is_fcapital && is_scapital {
         println!("false");
-    }  else {
+    } else {
         let chars: Vec<char> = word.chars().collect();
-    
+
         svg("fold.svg", || {
-            let s = chars.into_par_iter().skip(2)
-                .fold(|| true, |acc, x| if x.is_uppercase() != is_scapital {false} else {acc})
+            let s = chars
+                .into_par_iter()
+                .skip(2)
+                .fold(
+                    || true,
+                    |acc, x| {
+                        if x.is_uppercase() != is_scapital {
+                            false
+                        } else {
+                            acc
+                        }
+                    },
+                )
                 .log("fold")
                 .reduce(|| true, |char1: bool, char2: bool| char1 && char2);
             assert_eq!(s, true);
-        }).expect("failed saving log");
+        })
+        .expect("failed saving log");
     }
 }
 
-fn main()  -> io::Result<()>  {
+fn main() -> io::Result<()> {
     // let word = String::from("mL");
     // println!("{:?}", detect_capital_use_par(word));
 
