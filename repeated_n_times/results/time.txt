@@ -1,34 +1,45 @@
-Prices 0
+Nums 0 = vec![1, 2, 3, 3]
 Function Hash seq, Time elapsed: 19.334µs
 Function Best seq, Time elapsed: 167ns
 Function Parallel Block, Time elapsed: 249.459µs
 Function Parallel Joins, Time elapsed: 60.792µs
-Prices 1
+
+Nums 1 = vec![1, 3, 2, 3]
 Function Hash seq, Time elapsed: 667ns
 Function Best seq, Time elapsed: 42ns
 Function Parallel Block, Time elapsed: 125ns
 Function Parallel Joins, Time elapsed: 125ns
-Prices 2
+
+Nums 2 = vec![2, 1, 2, 5, 3, 2]
 Function Hash seq, Time elapsed: 250ns
 Function Best seq, Time elapsed: 84ns
 Function Parallel Block, Time elapsed: 83ns
 Function Parallel Joins, Time elapsed: 42ns
-Prices 3
+
+Nums 3 = vec![5, 1, 5, 2, 5, 3, 5, 4]
 Function Hash seq, Time elapsed: 292ns
 Function Best seq, Time elapsed: 84ns
 Function Parallel Block, Time elapsed: 83ns
 Function Parallel Joins, Time elapsed: 84ns
-Prices 4
+
+Nums 4 = vec![1, 2, 3, 5, 5, 5, 5, 4]
 Function Hash seq, Time elapsed: 2.542µs
 Function Best seq, Time elapsed: 167ns
 Function Parallel Block, Time elapsed: 68.125µs
 Function Parallel Joins, Time elapsed: 69.625µs
-Prices Nums 1
+
+Input Nums 1 = Vector with increasing numbers 20_000 elements from a file (the repetion from the 10_000 element)
 Function Hash seq, Time elapsed: 465.875µs
 Function Best seq, Time elapsed: 10.625µs
 Function Parallel Block, Time elapsed: 668.167µs
 Function Parallel Joins, Time elapsed: 1.364292ms
-Prices Nums 2
+
+Input Nums 1 = Vector with increasing numbers 2_000_000 elements from a file (the repetion from the 1_000_000th element)
+Function Hash seq, Time elapsed: 45.05ms
+Function Best seq, Time elapsed: 921.125µs
+Function Parallel Block, Time elapsed: 1.728417ms
+
+Input Nums 2 = Vector with alternating numbers 20_000 elements from a file (the repetion from the 2nd element)
 Function Hash seq, Time elapsed: 2.916µs
 Function Best seq, Time elapsed: 2µs
 Function Parallel Block, Time elapsed: 1.667µs
